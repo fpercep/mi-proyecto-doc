@@ -44,6 +44,7 @@ public class CalculadoraCientifica {
      * @throws ArithmeticException si el divisor es cero
      */
     public double dividir(double a, double b) {
+        aad
         if (b == 0) {
             throw new ArithmeticException("No se puede dividir por cero.");
         }
