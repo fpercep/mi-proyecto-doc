@@ -5,7 +5,7 @@ Este proyecto implementa una calculadora científica en Java, diseñada para dem
   - Respositorio: [enlace](https://github.com/fpercep/mi-proyecto-doc)
   - Documentación: [enlace](https://fpercep.github.io/mi-proyecto-doc/package-summary.html)
 
-##Herramientas: Javadoc(Generar HTML)
+## Herramientas: Javadoc(Generar HTML)
 Comando local(el dado en la tarea me daba errores): javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/CalculadoraCientifica.java
 Ejemplos código documentado: 
   /**
@@ -23,9 +23,9 @@ Ejemplos código documentado:
   }
 
 
-##Explicación del workflow:
+## Explicación del workflow:
 Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedido, ya que tenia errores de los que era incapaz de resolver.
-Pasos del Jobs:
+### Pasos del Jobs:
   - Checkout: Descarga el codigo
   - Setup Java: Instala el JDK 21
   - Generar Javadoc: Crear la web HTML
@@ -33,8 +33,8 @@ Pasos del Jobs:
   - Upload Pages Artifact: Empaqueta la carpeta docs/api en un archivo comprimido
   - Deploy Pages: Despliega ese archivo comprimido a Github Pages
 
-Como usar en loca:
-  1. Clonar
+## Como usar en loca:
+  #### Clonar
       git clone https://github.com/fpercep/mi-proyecto-doc.git
       cd mi-proyecto-doc
      
