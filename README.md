@@ -33,8 +33,8 @@ Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedid
   - Upload Pages Artifact: Empaqueta la carpeta docs/api en un archivo comprimido
   - Deploy Pages: Despliega ese archivo comprimido a Github Pages
 
-## Como usar en loca:
-  #### Clonar
+## Como usar en local:
+  1. Clonar
       git clone https://github.com/fpercep/mi-proyecto-doc.git
       cd mi-proyecto-doc
      
