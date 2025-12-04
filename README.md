@@ -27,24 +27,27 @@ Ejemplos código documentado:
 ## Explicación del workflow:
 Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedido, ya que tenia errores de los que era incapaz de resolver.
 ### Pasos del Jobs:
-  - Checkout: Descarga el codigo
-  - Setup Java: Instala el JDK 21
-  - Generar Javadoc: Crear la web HTML
-  - Actions configure: Configura Github Pages
-  - Upload Pages Artifact: Empaqueta la carpeta docs/api en un archivo comprimido
-  - Deploy Pages: Despliega ese archivo comprimido a Github Pages
+  - **Checkout**: Descarga el codigo
+  - **Setup Java**: Instala el JDK 21
+  - **Generar Javadoc**: Crear la web HTML
+  - **Actions configure**: Configura Github Pages
+  - **Upload Pages Artifact**: Empaqueta la carpeta docs/api en un archivo comprimido
+  - **Deploy Pages**: Despliega ese archivo comprimido a Github Pages
 
 ## Como usar en local:
   1. Clonar
+      ```
       git clone https://github.com/fpercep/mi-proyecto-doc.git
       cd mi-proyecto-doc
+      ```
      
   2. Compilar y ejecutar
+        ```
       javac src/*.java
       java -cp src CalculadoraCientifica
-     
+        ```
   3. Generar Documentación
-      javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/*.java
+      `javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/*.java`
 
 
 Cuestionario: 
