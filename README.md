@@ -47,16 +47,18 @@ Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedid
       java -cp src CalculadoraCientifica
         ```
   3. Generar Documentación
-      `javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/*.java`
-
+      ```
+     javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/*.java
+      ```
 
 Cuestionario: 
-  -  Identificación de herramientas de generación de documentación: He utilizado Javadoc
-  -  Documentación de componentes: Utlizo el estilo Javadoc. En la sección "Ejemplos código documentado" se muestra el uso de docstrings estructurados
-  -  Publicación en GitHub Pages: Aunque el enunciado dice peaceiris, he utilizado GitHub Actions Artifacts.
+  -  **Identificación de herramientas de generación de documentación**: He utilizado Javadoc
+  -  **Documentación de componentes**: Utlizo el estilo Javadoc. En la sección "Ejemplos código documentado" se muestra el uso de docstrings
+     estructurados
+  -  **Publicación en GitHub Pages:** Aunque el enunciado dice peaceiris, he utilizado GitHub Actions Artifacts.
         Configuración Repo: Settings > Pages > Build and deployment, eligue Source: GitHub Actions
-  -  Colaboración: GitHub Pages permite que cualquier persona que dicida usar mi codigo, tengo acceso a su documentación
-  -  Control de versiones: Casi todos los mensajes de commit, evendecian que cambios se hicieron
-  -  Accesibilidad y segurida: Al ser publico, la documetación es accesible globalmente.
-  -  Instalación/uso documentados: Las instruciones estan en el apartado de enlaces y la instalción es como la de cualquier otro repositorio
-  -  Integración continua y despliegue continuo (CI/CD): Al hacer push, Github Actions compila la documentación y asegura que el código es documentable y no tiene errores
+  -  **Colaboración:** GitHub Pages permite que cualquier persona que dicida usar mi codigo, tengo acceso a su documentación
+  -  **Control de versiones:** Casi todos los mensajes de commit, evendecian que cambios se hicieron
+  -  **Accesibilidad y segurida:** Al ser publico, la documetación es accesible globalmente.
+  -  **Instalación/uso documentados:** Las instruciones estan en el apartado de enlaces y la instalción es como la de cualquier otro repositorio
+  -  **Integración continua y despliegue continuo (CI/CD):** Al hacer push, Github Actions compila la documentación y asegura que el código es       documentable y no tiene errores
