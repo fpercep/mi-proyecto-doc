@@ -3,8 +3,16 @@ name: Generar Documentación Javadoc
 # Evento: Se ejecuta cada vez que haces un push a la rama 'main'
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+
+concurrency:
+  group: "github-pages"
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-and-deploy:
