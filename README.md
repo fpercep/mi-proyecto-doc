@@ -6,8 +6,9 @@ Este proyecto implementa una calculadora científica en Java, diseñada para dem
   - Documentación: [enlace](https://fpercep.github.io/mi-proyecto-doc/package-summary.html)
 
 ## Herramientas: Javadoc(Generar HTML)
-Comando local(el dado en la tarea me daba errores): """javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/CalculadoraCientifica.java"""
-Ejemplos código documentado: 
+Comando local(el dado en la tarea me daba errores): `javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/CalculadoraCientifica.java`
+Ejemplos código documentado:
+```
   /**
    * Divide dos números reales.
    * * @param a el número a dividir (dividendo)
@@ -21,7 +22,7 @@ Ejemplos código documentado:
       }
       return a / b;
   }
-
+```
 
 ## Explicación del workflow:
 Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedido, ya que tenia errores de los que era incapaz de resolver.
