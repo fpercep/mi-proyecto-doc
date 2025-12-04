@@ -1,9 +1,11 @@
 # Proyecto Intermodular: Calculadora Científica (Java) + CI/CD
 Este proyecto implementa una calculadora científica en Java, diseñada para demostrar un flujo de trabajo completo de DevOps que incluye la generación automática de documentación técnica y su despliegue continuo mediante GitHub Actions.
 
+
 ## Enlaces
   - Respositorio: [enlace](https://github.com/fpercep/mi-proyecto-doc)
   - Documentación: [enlace](https://fpercep.github.io/mi-proyecto-doc/package-summary.html)
+
 
 ## Herramientas: Javadoc(Generar HTML)
 Comando local(el dado en la tarea me daba errores): `javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/CalculadoraCientifica.java`
@@ -24,6 +26,7 @@ Ejemplos código documentado:
   }
 ```
 
+
 ## Explicación del workflow:
 Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedido, ya que tenia errores de los que era incapaz de resolver.
 ### Pasos del Jobs:
@@ -33,6 +36,7 @@ Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedid
   - **Actions configure**: Configura Github Pages
   - **Upload Pages Artifact**: Empaqueta la carpeta docs/api en un archivo comprimido
   - **Deploy Pages**: Despliega ese archivo comprimido a Github Pages
+
 
 ## Como usar en local:
   1. Clonar
@@ -51,7 +55,8 @@ Se a implementado un flujo moderno de Github Pages(Artifacts) en lugar del pedid
      javadoc -d docs/api -encoding UTF-8 -charset UTF-8 -author -version src/*.java
       ```
 
-Cuestionario: 
+
+## Cuestionario: 
   -  **Identificación de herramientas de generación de documentación**: He utilizado Javadoc
   -  **Documentación de componentes**: Utlizo el estilo Javadoc. En la sección "Ejemplos código documentado" se muestra el uso de docstrings
      estructurados
