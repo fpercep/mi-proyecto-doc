@@ -1,7 +1,7 @@
-#Proyecto Intermodular: Calculadora Científica (Java) + CI/CD
+# Proyecto Intermodular: Calculadora Científica (Java) + CI/CD
 Este proyecto implementa una calculadora científica en Java, diseñada para demostrar un flujo de trabajo completo de DevOps que incluye la generación automática de documentación técnica y su despliegue continuo mediante GitHub Actions.
 
-##Enlaces
+## Enlaces
   - Respositorio: [enlace](https://github.com/fpercep/mi-proyecto-doc)
   - Documentación: [enlace](https://fpercep.github.io/mi-proyecto-doc/package-summary.html)
 
